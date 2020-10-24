@@ -60,18 +60,49 @@ export default function Home({ data }) {
           </div>
         </article>
 
-        <div>
+        <div className={styles.portfolioGrid}>
           <article className={styles.portfolioSmall}>
-            <Title headingLevel="h4">
-              2020 — FINANCIAL HOUSE — CHECKOUT UX/UI IMPROVEMENT
-            </Title>
-            <Title headingLevel="h3">Fastly pay</Title>
+            <header>
+              <Title headingLevel="h4">
+                2020 — FINANCIAL HOUSE — CHECKOUT UX/UI IMPROVEMENT
+              </Title>
+              <Title headingLevel="h3">Fastly pay</Title>
+            </header>
+            <div className={styles.portfolioImage}>
+              <Img fluid={data.fastly.sharp.fluid} />
+            </div>
+          </article>
+
+          <article className={styles.portfolioSmall}>
+            <header>
+              <Title headingLevel="h4">
+                2018 — USETAPTAP — UI DESIGN, HELPING DESIGN SYSTEM
+              </Title>
+              <Title headingLevel="h3">Online ordering system</Title>
+            </header>
+            <div className={styles.portfolioImage}>
+              <Img fluid={data.fastly.sharp.fluid} />
+            </div>
+          </article>
+
+          <article className={styles.portfolioSmall}>
+            <header>
+              <Title headingLevel="h4">
+                2019 — EATTUS — PRODUCT DESIGN, MOBILE APPLICATION DESIGN
+              </Title>
+              <Title headingLevel="h3">Healthy eating and sociability</Title>
+            </header>
             <div className={styles.portfolioImage}>
               <Img fluid={data.fastly.sharp.fluid} />
             </div>
           </article>
         </div>
       </section>
+
+      <div className={styles.dribble}>
+        <span>NEW</span>
+        <strong>Discover other projects on Dribbble</strong>
+      </div>
     </Layout>
   )
 }

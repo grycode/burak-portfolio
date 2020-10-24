@@ -1,6 +1,7 @@
 import React from "react"
-import Container from "../container"
 import Header from "../header"
+import Container from "../container"
+import Footer from "../footer"
 
 export default function Layout({ children }) {
   return (
@@ -9,6 +10,7 @@ export default function Layout({ children }) {
       <main>
         <Container>{children}</Container>
       </main>
+      <Footer />
     </>
   )
 }
