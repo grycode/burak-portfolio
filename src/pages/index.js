@@ -1,5 +1,12 @@
-import React from "react"
+/** @jsx jsx */
+import { jsx } from "theme-ui"
+import Header from "../components/header"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return (
+    <div sx={{ p: "8vw" }}>
+      <Header />
+      <div>Hello world!</div>
+    </div>
+  )
 }
