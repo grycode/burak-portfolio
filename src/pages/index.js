@@ -66,7 +66,10 @@ export default function Home({ data }) {
         </article>
 
         <div className={styles.portfolioGrid}>
-          <article className={styles.portfolioSmall}>
+          <article
+            className={styles.portfolioSmall}
+            style={{ backgroundColor: "#fff6f2" }}
+          >
             <header>
               <Title headingLevel="h4">
                 2020 — FINANCIAL HOUSE — CHECKOUT UX/UI IMPROVEMENT
@@ -78,7 +81,10 @@ export default function Home({ data }) {
             </div>
           </article>
 
-          <article className={styles.portfolioSmall}>
+          <article
+            className={styles.portfolioSmall}
+            style={{ backgroundColor: "f0f0f0" }}
+          >
             <header>
               <Title headingLevel="h4">
                 2018 — USETAPTAP — UI DESIGN, HELPING DESIGN SYSTEM
@@ -90,7 +96,10 @@ export default function Home({ data }) {
             </div>
           </article>
 
-          <article className={styles.portfolioSmall}>
+          <article
+            className={styles.portfolioSmall}
+            style={{ backgroundColor: "#fee5e5" }}
+          >
             <header>
               <Title headingLevel="h4">
                 2019 — EATTUS — PRODUCT DESIGN, MOBILE APPLICATION DESIGN
