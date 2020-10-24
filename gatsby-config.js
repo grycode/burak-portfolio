@@ -6,7 +6,7 @@ module.exports = {
     titleTemplate: "%s",
     description: `I design data-driven products that are both functional and aesthetically appealing.`,
     url: `https://cebel.me`,
-    image: "/src/assets/images/burak.png",
+    image: "images/burak.png",
     twitterUsername: "@burakcebel",
   },
   plugins: [
@@ -14,7 +14,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: path.join(__dirname, `src/assets`, `images`),
+        path: path.join(__dirname, `static`, `images`),
       },
     },
     `gatsby-plugin-react-helmet`,
@@ -26,7 +26,6 @@ module.exports = {
       options: {
         trackingId: "G-78SX6358M3",
         head: true,
-        defer: true,
       },
     },
     {
@@ -43,7 +42,7 @@ module.exports = {
         name: `Burak Cebel`,
         short_name: `Burak Cebel`,
         start_url: `/`,
-        icon: `src/assets/images/burak.png`,
+        icon: `static/images/burak.png`,
         background_color: `#18171d`,
         theme_color: `#ffb87a`,
         display: `standalone`,

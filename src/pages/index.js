@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import Title from "../components/title"
 import SEO from "../components/seo"
 import Portfolio from "../components/portfolio"
-import styles from "../assets/styles/Index.module.scss"
+import styles from "../styles/Index.module.scss"
 
 export default function Home() {
   return (
