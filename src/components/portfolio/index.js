@@ -85,7 +85,7 @@ export default function Portfolio() {
 
             <article
               className={cn(styles.small, styles.highlighted)}
-              style={{ backgroundColor: "#ddefff" }}
+              style={{ backgroundColor: "#fef5e5" }}
             >
               <header>
                 <Title headingLevel="h4">
