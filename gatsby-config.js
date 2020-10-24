@@ -29,5 +29,13 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "78SX6358M3",
+        head: false,
+        defer: true,
+      },
+    },
   ],
 }
