@@ -28,7 +28,7 @@ export default function Header() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Dribble
+                    Dribbble
                   </a>
                 </li>
                 <li>
