@@ -12,8 +12,9 @@ export default function Footer() {
         <p>
           If you have a website or mobile app idea in mind or you need some
           advice about product design, feel free to{" "}
-          <a href="mailto:">contact me.</a> Currently my time books quickly, so
-          the sooner you write, the better it is for both of us.
+          <a href="mailto:mailto:burakcebeltr@gmail.com">contact me.</a>{" "}
+          Currently my time books quickly, so the sooner you write, the better
+          it is for both of us.
         </p>
         <ul>
           <li>
@@ -37,7 +38,7 @@ export default function Footer() {
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/burakcebel/"
+              href="https://www.linkedin.com/in/burakcebel"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -45,7 +46,13 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a href="">Resume</a>
+            <a
+              href="https://www.linkedin.com/in/burakcebel"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
           </li>
         </ul>
       </Container>

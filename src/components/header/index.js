@@ -1,19 +1,15 @@
 import React from "react"
-import { Spin as Hamburger } from "hamburger-react"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import cn from "classnames"
 import Container from "../container"
 import styles from "./header.module.scss"
 
 export default function Header() {
-  const [isOpen, setOpen] = React.useState(false)
-
   return (
     <StaticQuery
       query={query}
       render={data => (
-        <header className={cn(styles.header, isOpen ? styles.open : null)}>
+        <header className={styles.header}>
           <Container className={styles.container}>
             <div className={styles.logo}>
               <div className={styles.avatar}>
@@ -46,7 +42,7 @@ export default function Header() {
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/burakcebel/"
+                    href="https://www.linkedin.com/in/burakcebel"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -54,19 +50,16 @@ export default function Header() {
                   </a>
                 </li>
                 <li>
-                  <a href="#">Resume</a>
+                  <a
+                    href="https://www.linkedin.com/in/burakcebel"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Resume
+                  </a>
                 </li>
               </ul>
             </nav>
-            <div className={styles.hamburger}>
-              <Hamburger
-                rounded
-                toggled={isOpen}
-                toggle={setOpen}
-                label="Toggle menu"
-                distance="sm"
-              />
-            </div>
           </Container>
         </header>
       )}

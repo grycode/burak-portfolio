@@ -1,12 +1,30 @@
 .footer {
-  margin-top: 80px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  @media (min-width: 768px) {
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+
+  h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    @media (min-width: 768px) {
+      margin: 0;
+    }
+  }
 
   p {
     color: var(--c-secondary);
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 0;
     line-height: 1.5;
+
+    @media (min-width: 768px) {
+      font-size: 1.5rem;
+    }
 
     a {
       color: var(--c-primary);
