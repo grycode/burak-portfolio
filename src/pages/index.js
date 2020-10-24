@@ -83,7 +83,7 @@ export default function Home({ data }) {
 
           <article
             className={styles.portfolioSmall}
-            style={{ backgroundColor: "f0f0f0" }}
+            style={{ backgroundColor: "#f0f0f0" }}
           >
             <header>
               <Title headingLevel="h4">
