@@ -6,7 +6,7 @@ module.exports = {
     titleTemplate: "%s",
     description: `I design data-driven products that are both functional and aesthetically appealing.`,
     url: `https://cebel.me`,
-    image: "images/burak.png",
+    image: "/images/burak.png",
     twitterUsername: "@burakcebel",
   },
   plugins: [
