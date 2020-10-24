@@ -27,13 +27,31 @@ export default function Header() {
             <nav className={styles.nav}>
               <ul>
                 <li>
-                  <a href="#">Dribble</a>
+                  <a
+                    href="https://dribbble.com/burakcebel"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Dribble
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Twitter</a>
+                  <a
+                    href="https://twitter.com/burakcebel"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Twitter
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Linkedin</a>
+                  <a
+                    href="https://www.linkedin.com/in/burakcebel/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Linkedin
+                  </a>
                 </li>
                 <li>
                   <a href="#">Resume</a>

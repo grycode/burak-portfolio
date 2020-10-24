@@ -50,7 +50,10 @@ export default function Home({ data }) {
           </div>
         </article>
 
-        <article className={styles.portfolioLarge}>
+        <article
+          style={{ marginBottom: "30px" }}
+          className={styles.portfolioLarge}
+        >
           <Title headingLevel="h4">
             2020 — BEEPY — PRODUCT DESIGN, MOBILE APPLICATION DESIGN
           </Title>
@@ -81,7 +84,7 @@ export default function Home({ data }) {
               <Title headingLevel="h3">Online ordering system</Title>
             </header>
             <div className={styles.portfolioImage}>
-              <Img fluid={data.fastly.sharp.fluid} />
+              <Img fluid={data.onlineordering.sharp.fluid} />
             </div>
           </article>
 
@@ -93,15 +96,21 @@ export default function Home({ data }) {
               <Title headingLevel="h3">Healthy eating and sociability</Title>
             </header>
             <div className={styles.portfolioImage}>
-              <Img fluid={data.fastly.sharp.fluid} />
+              <Img fluid={data.eattus.sharp.fluid} />
             </div>
           </article>
         </div>
       </section>
 
       <div className={styles.dribble}>
-        <span>NEW</span>
-        <strong>Discover other projects on Dribbble</strong>
+        <a
+          href="https://dribbble.com/burakcebel"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>NEW</span>
+          <strong>Discover other projects on Dribbble</strong>
+        </a>
       </div>
     </Layout>
   )
@@ -133,7 +142,23 @@ export const query = graphql`
       }
     }
 
-    fastly: file(relativePath: { eq: "fastly-pay.png" }) {
+    fastly: file(relativePath: { eq: "fastlypay.png" }) {
+      sharp: childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
+      }
+    }
+
+    onlineordering: file(relativePath: { eq: "onlineordering.png" }) {
+      sharp: childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
+      }
+    }
+
+    eattus: file(relativePath: { eq: "eattus.png" }) {
       sharp: childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_withWebp_tracedSVG

@@ -20,6 +20,7 @@
     "gatsby-plugin-sass": "^2.3.21",
     "gatsby-plugin-sharp": "^2.6.43",
     "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.3.35",
     "gatsby-transformer-sharp": "^2.5.19",
     "hamburger-react": "^2.2.0",
