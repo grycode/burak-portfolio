@@ -32,9 +32,17 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "78SX6358M3",
+        trackingId: "G-78SX6358M3",
         head: false,
         defer: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        includeInDevelopment: false, // optional parameter to include script in development
+        id: 2059116,
+        sv: 6,
       },
     },
   ],
