@@ -2,7 +2,7 @@ const path = require(`path`)
 
 module.exports = {
   siteMetadata: {
-    title: `Burak Cebel`,
+    title: `Burak Cebel - Digital Product Designer`,
     titleTemplate: "%s",
     description: `I design data-driven products that are both functional and aesthetically appealing.`,
     url: `https://cebel.me`,
@@ -40,9 +40,21 @@ module.exports = {
     {
       resolve: `gatsby-plugin-hotjar`,
       options: {
-        includeInDevelopment: false, // optional parameter to include script in development
+        includeInDevelopment: false,
         id: 2059116,
         sv: 6,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Burak Cebel`,
+        short_name: `Burak Cebel`,
+        start_url: `/`,
+        icon: `src/assets/images/burak.png`,
+        background_color: `#18171d`,
+        theme_color: `#ffb87a`,
+        display: `standalone`,
       },
     },
   ],

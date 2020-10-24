@@ -12,7 +12,7 @@
 .portfolioLarge {
   margin-bottom: 80px;
 
-  & > .portfolioImage {
+  & .portfolioImage {
     border-radius: 8px;
     overflow: hidden;
   }
@@ -37,15 +37,26 @@
 .portfolioSmall {
   background-color: #fff6f2;
   border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 
   header {
-    padding: 2rem 1.5rem;
+    padding: 2rem 1.5rem 1rem;
 
     h3 {
       line-height: 1.2;
       margin-top: 8px;
       color: #222222;
     }
+
+    h4 {
+      color: rgba(0, 0, 0, 0.4);
+    }
+  }
+
+  & .portfolioImage {
+    margin-top: auto;
   }
 }
 
