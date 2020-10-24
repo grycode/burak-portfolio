@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8vw;
+
+  @media (min-width: 768px) {
+    padding-top: 4vw;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.nav {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: flex;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    @media (min-width: 768px) {
+      display: flex;
+    }
+
+    li {
+      a {
+        display: flex;
+        color: var(--c-secondary);
+        padding: 8px 0;
+
+        @media (min-width: 768px) {
+          padding: 8px 12px;
+        }
+
+        &:hover {
+          color: var(--c-primary);
+        }
+      }
+    }
+  }
+}
+
+.hamburger {
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
