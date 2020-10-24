@@ -92,10 +92,11 @@
     span {
       background-color: #ea4c8a;
       color: white;
-      padding: 4px 8px;
+      padding: 3px 8px;
       border-radius: 4px;
       align-self: center;
       margin-bottom: 8px;
+      font-size: 12px;
 
       @media (min-width: 768px) {
         margin-bottom: 0;
