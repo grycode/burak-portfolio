@@ -1,13 +1,15 @@
 import React from "react"
 import Layout from "../components/layout"
 import Title from "../components/title"
-import styles from "../assets/styles/Index.module.scss"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import styles from "../assets/styles/Index.module.scss"
+import SEO from "../components/seo"
 
 export default function Home({ data }) {
   return (
     <Layout>
+      <SEO />
       <section className={styles.hero}>
         <Title headingLevel="h4">HEY, NICE TO MEET YOU!</Title>
         <Title headingLevel="h1">

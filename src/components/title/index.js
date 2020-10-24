@@ -1,6 +1,6 @@
 import React from "react"
-import styles from "./title.module.scss"
 import cn from "classnames"
+import styles from "./title.module.scss"
 
 export default function Title({ headingLevel, children, className }) {
   const validHeadingLevels = ["h1", "h2", "h3", "h4", "h5", "h6"]
