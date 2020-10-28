@@ -1,0 +1,10 @@
+.hero {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 1070px;
+
+  @media (min-width: 768px) {
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+}
