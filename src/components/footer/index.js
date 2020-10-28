@@ -47,7 +47,7 @@ export default function Footer() {
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/burakcebel"
+              href="https://drive.google.com/file/d/1V5AhSq1IZMDlk2DeL50QhyZ39E1NxtX9/view"
               target="_blank"
               rel="noopener noreferrer"
             >
