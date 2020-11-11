@@ -153,72 +153,72 @@ export const query = graphql`
   query {
     wallet: file(relativePath: { eq: "wallet.jpg" }) {
       sharp: childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        fluid(maxWidth: 4000, quality: 100) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
 
     walletMobile: file(relativePath: { eq: "wallet-mobile.png" }) {
       sharp: childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        fluid(maxWidth: 4000, quality: 100) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
 
     banking: file(relativePath: { eq: "banking.jpg" }) {
       sharp: childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        fluid(maxWidth: 4000, quality: 100) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
 
     bankingMobile: file(relativePath: { eq: "banking-mobile.png" }) {
       sharp: childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        fluid(maxWidth: 4000, quality: 100) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
 
     beepy: file(relativePath: { eq: "beepy.jpg" }) {
       sharp: childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        fluid(maxWidth: 4000, quality: 100) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
 
     beepyMobile: file(relativePath: { eq: "beepy-mobile.png" }) {
       sharp: childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        fluid(maxWidth: 4000, quality: 100) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
 
     fastly: file(relativePath: { eq: "fastlypay.png" }) {
       sharp: childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        fluid(maxWidth: 4000, quality: 100) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
 
     onlineordering: file(relativePath: { eq: "onlineordering.png" }) {
       sharp: childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        fluid(maxWidth: 4000, quality: 100) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
 
     eattus: file(relativePath: { eq: "eattus.png" }) {
       sharp: childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        fluid(maxWidth: 4000, quality: 100) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
