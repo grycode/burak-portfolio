@@ -10,6 +10,7 @@ module.exports = {
     twitterUsername: "@burakcebel",
   },
   plugins: [
+    `gatsby-plugin-preact`,
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
@@ -32,6 +33,7 @@ module.exports = {
         path: path.join(__dirname, `static`, `images`),
       },
     },
+    `gatsby-plugin-preload-fonts`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
